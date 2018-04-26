@@ -7,7 +7,11 @@ env:
 - DJANGO=1.8
 
 install:
+  - pip install coveralls
   - pip install -q Django==$DJANGO
 
 script:
   - python manage.py test
+
+after_success:
+  - coveralls

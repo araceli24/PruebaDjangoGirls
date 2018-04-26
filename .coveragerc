@@ -1,0 +1,6 @@
+[run]
+omit = .venv/*, .tox/*, core/migrations/*
+
+[report]
+show_missing = true
+omit = .venv/*, .tox/*, core/migrations/*
