@@ -6,4 +6,4 @@ class SimpleTest(TestCase):
         self.assertEqual(1 + 2, 3)
 
     def test_maths_two(self):
-        self.assertContains(1, 12)
+        self.assertEqual(12, 12)
